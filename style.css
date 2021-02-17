@@ -32,8 +32,9 @@ p {
 }
 
 .card {
-  background: rgba(242, 237, 237, 0.089);
-  box-shadow: 0px 5px 10px rgba(129, 127, 127, 0.4);
+  background: rgba(242, 237, 237, 0.15);
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 5px 10px rgba(129, 127, 127, 0.6);
   width: 500px;
   padding: 30px;
   margin: 20px auto;
